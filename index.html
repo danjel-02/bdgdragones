@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BDG DRAGONES</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #000;
+      color: #fff;
+    }
+    header {
+      background: linear-gradient(to right, #000, #0056ff);
+      padding: 2rem;
+      text-align: center;
+    }
+    header img {
+      width: 120px;
+      display: block;
+      margin: 0 auto 1rem auto;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin: 0;
+      color: #0056ff;
+      text-shadow: 0 0 8px #0056ff;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: .5rem;
+      color: #fff;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #111;
+      padding: 1rem;
+      flex-wrap: wrap;
+      border-bottom: 2px solid #0056ff;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #0056ff;
+    }
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #0056ff;
+      margin-bottom: 1rem;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      border: 2px solid #0056ff;
+    }
+    .social a {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 0.7rem 1.2rem;
+      background: #0056ff;
+      border-radius: 8px;
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .social a:hover {
+      background: #003bb5;
+    }
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 2rem;
+      color: #aaa;
+      border-top: 2px solid #0056ff;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+    }
+    ul li {
+      margin: 0.5rem 0;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo BDG Dragones">
+    <h1>BDG DRAGONES</h1>
+    <p>Orgullo de nuestra secundaria. ¡Siempre en alto!</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre Nosotros</a>
+    <a href="#galeria">Galería</a>
+    <a href="#eventos">Eventos</a>
+    <a href="#redes">Redes</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="sobre">
+    <h2>Sobre Nosotros</h2>
+    <p>
+      Nuestra secundaria ha sido una de las mejores bandas de guerra de la región.  
+      Con disciplina, orgullo y pasión, seguimos poniendo en alto el nombre de nuestra institución.  
+      Cada toque y cada paso es un símbolo de nuestra dedicación y esfuerzo.
+    </p>
+  </section>
+
+  <section id="galeria">
+    <h2>Galería</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/400x250/000000/0056ff?text=Foto+1" alt="Foto 1">
+      <img src="https://via.placeholder.com/400x250/000000/0056ff?text=Foto+2" alt="Foto 2">
+      <img src="https://via.placeholder.com/400x250/000000/0056ff?text=Foto+3" alt="Foto 3">
+    </div>
+  </section>
+
+  <section id="eventos">
+    <h2>Próximos Eventos</h2>
+    <ul>
+      <li>📅 15 de Octubre - Desfile escolar</li>
+      <li>📅 20 de Noviembre - Conmemoración histórica</li>
+    </ul>
+  </section>
+
+  <section id="redes">
+    <h2>Síguenos</h2>
+    <div class="social">
+      <a href="https://www.instagram.com/bdg_dragones?igsh=NTc4MTIwNjQ2YQ==" target="_blank">Instagram Banda</a>
+      <a href="https://www.instagram.com/danjel_02?igsh=MWw5bmdvcThwdWtrNQ==" target="_blank">Instagram Instructor</a>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>📧 Escríbenos: <a href="mailto:contacto@bdgdragones.com">contacto@bdgdragones.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 BDG DRAGONES - Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
